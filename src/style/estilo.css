@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+/***LOGIN Y REGISTRO********/
+.img-Login {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.title-login , .title-Pregunta{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 39px;
+    font-size: 32px;
+    color: #FFFFFE;
+}
+
+.enlace-Login {
+    color: white;
+    background: #EF4565;
+    border-radius: 4px;
+    padding: 15px;
+    width: 400px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.enlace-Login:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.enlace-Login img{
+    width: 20px;
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+.email-login , .pass-login{
+    color: black;
+    border-radius: 4px;
+    padding: 15px;
+    width: 400px;
+    border: 0px;
+    text-decoration: none;
+}
+.p-login{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #FFFFFE;
+}
+
+#hr-login{
+    width: 100%;
+    border: 1px solid #94a1b2a3;
+    margin-top: 15px;
+}
+
+.enlace-pass {
+    text-decoration-line: underline;
+    color: #2CB67D;
+    margin: 23px 51px auto;
+}
+.enlace-inscribirse{
+    color: #2CB67D;
+}
+
+.p-enlace {
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.Button-LR {
+    background-color: #292929d1;
+    margin-top: 20px;
+    padding: 6px;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 27px 78px auto;
+}
+
+.Button-LR:hover{
+color:white;
+}
+
+/***QUESTION 3***/
+.title-Pregunta {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFE;
+    display: flex;
+    width: 300px;
+    margin: 0;
+}
+
+.ul-Question5Html{
+    grid-template-columns: repeat(2, 3fr);
+    display: grid;
+    grid-gap: 3em;
+    text-decoration: none;
+}
+.ul-Question5Html li{
+    width: 130%;
+    height: 200px;
+    list-style: none;
+    text-align: -webkit-center;
+    border: 2px solid #94A1B2;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 0px #94a1b2;
+    border-radius: 8px;
+}
+
+.img-Question3{
+    width: 110px;
+    height: 130px;
+    margin-top: 20px;;
+}
+
+.botonR{
+    margin-top: 29px;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 45px;
+    background-color:red;
+    border: 0px;
+    border-radius: 16px;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}

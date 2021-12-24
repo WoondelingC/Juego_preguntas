@@ -30,6 +30,12 @@ const CssComp = () => {
   const [count, setCount] = useState(1);
   const [vidas, setVidas] = useState(0);
 
+  if (localStorage.getItem("puntos") === null) {
+    localStorage.setItem("puntos", 0);
+  }
+
+  let dineroJugador = Number.parseInt(localStorage.getItem("puntos"));
+
   useEffect(() => {
     obtenerDatos(count);
   }, [count]);
@@ -45,6 +51,8 @@ const CssComp = () => {
   const handleClick = (e) => {
     if (e.target.value === pregunta.correct) {
       setVidas(vidas + 100);
+      let v = dineroJugador + 100;
+      localStorage.setItem("puntos", v);
 
       Swal.fire({
         icon: "success",
@@ -136,7 +144,7 @@ const CssComp = () => {
             />
           </label>
 
-          <button className="botonR" onClick={handleSubmit}>SIGUIENTE</button>
+          <button className="botonR" onClick={handleSubmit}>SALIR</button>
         </div>
       </div>
     </div> //FIN

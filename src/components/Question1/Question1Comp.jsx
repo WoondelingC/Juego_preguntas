@@ -157,7 +157,7 @@ const Question1Comp = () => {
           </label>
 
           <button className="botonR" onClick={handleSubmit}>
-            SIGUIENTE
+            SALIR
           </button>
         </div>
       </div>

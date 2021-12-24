@@ -61,6 +61,7 @@ const JsComp = () => {
       })
       setTimeout(() => {
         setCount(+(count + 1))
+        salir()
       }, 2200);
       
     } else {
@@ -75,6 +76,12 @@ const JsComp = () => {
         }, 2000);
         setVidas(0);
         
+    }
+  };
+
+  const salir = () => {
+    if (count === 5) {
+      window.location = "/Home";
     }
   };
   

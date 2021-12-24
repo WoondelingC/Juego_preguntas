@@ -1,4 +1,5 @@
 import React from "react";
+import NavBarInicio from '../components/Navbars/NavBarInicio';
 import "../style/style.css";
 
 import {
@@ -35,6 +36,7 @@ const StatiticsComp = () => {
           </ContainerEstadistica>
         </Row>
       </Estadisticas>
+      <NavBarInicio/>
     </Principal>
   );
 };

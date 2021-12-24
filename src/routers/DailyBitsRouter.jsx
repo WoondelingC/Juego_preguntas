@@ -6,8 +6,7 @@ import {
 } from "react-router-dom";
 import Home from "../pages/Home";
 import Question1 from "../pages/Question1";
-import Profile from "../pages/Profile";
-import Statitics from "../pages/Statitics";
+import StatiticsComp from "../components/StatiticsComp";
 
 import { inicio } from "../pages/inicio";
 import CssComp from "../components/category/CssComp";
@@ -61,12 +60,7 @@ const DailyBitsRouter = () => {
         <Route
           exact
           path="/Statitics"
-          component={Statitics}
-        />
-        <Route
-          exact
-          path="/profile"
-          component={Profile}
+          component={StatiticsComp}
         />
       </Switch>
       <Redirect to="/" />
